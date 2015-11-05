@@ -1,0 +1,16 @@
+New log file opened at Thu Oct 08 00:40:51 AMT 2015 by 6181@raphael-notebook
+Taking next connection to: 44973
+New client attempting to connect on port: 49691-44973
+  Address = /10.0.0.30:44973
+This client on port 49691 has uuid 4af1c660-d928-42b6-a03c-6b57988d3595 configName activator humanReadableName Activator protocolVersion 3 featureTags Vector()
+Connected Clients: activator-4af1c660-d928-42b6-a03c-6b57988d3595
+Taking next connection to: 44973
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 44973
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 44973
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 44973

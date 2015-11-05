@@ -1,0 +1,15 @@
+enum appType = web ("WEB") | desktop ("Desktop GUI") | mobile ("Móvel") | console ("Desktop Texto") <- "Qual será o tipo da aplicação?"
+
+when
+    appType == "web"
+then
+    resultado = "PHP + Laravel"
+
+when
+    appType == "web"
+then
+    resultado = "Ruby + Rails"
+
+
+
+find resultado

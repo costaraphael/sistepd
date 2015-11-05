@@ -1,0 +1,207 @@
+New log file opened at Thu Oct 08 00:35:09 AMT 2015 by 5868@raphael-notebook
+jvm 5868@raphael-notebook
+jvm vmName=Java HotSpot(TM) 64-Bit Server VM vmVendor=Oracle Corporation vmVersion=25.60-b23
+jvm specName=Java Virtual Machine Specification specVendor=Oracle Corporation specVersion=1.8
+jvm arguments: [-Xms256m, -Xmx1024m, -XX:MetaspaceSize=64m, -XX:MaxMetaspaceSize=256m]
+Starting event engine
+Starting sbt command engine
+Waiting for sbt command engine
+Command engine arguments=List()
+Command engine baseDirectory=/home/raphael/Documentos/Estudos/Scala/expert-language
+Command engine initial remaining commands List(--initialize, onFailure load-failed, boot, server-send-ready-for-request, server-handle-next-server-request)
+> --initialize
+> initialize
+> onFailure load-failed
+> boot
+> reload
+[Loading] Scanning directory /home/raphael/Documentos/Estudos/Scala/expert-language/project
+[Loading] Found non-root projects 
+[Loading] Done in /home/raphael/Documentos/Estudos/Scala/expert-language/project, returning: ()
+deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))))
+  :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.JUnitXmlReportPlugin)
+sorting: ns: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.JUnitXmlReportPlugin)
+  :: sorting:: found: List(sbt.plugins.CorePlugin) not found List(sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.JUnitXmlReportPlugin)
+  :: sorting:: found: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin) not found List(sbt.plugins.JvmPlugin, sbt.plugins.JUnitXmlReportPlugin)
+  :: sorting:: found: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin) not found List(sbt.plugins.JUnitXmlReportPlugin)
+  :: sorting:: found: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.JUnitXmlReportPlugin) not found List()
+  :: sorted deduced result: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.JUnitXmlReportPlugin)
+[Loading] Done in /home/raphael/Documentos/Estudos/Scala/expert-language/project, returning: (expert-language-build)
+Loading project definition from /home/raphael/Documentos/Estudos/Scala/expert-language/project
+Running task... Cancel: sbt.TaskCancellationStrategy$Null$@6cc0d09d, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Copy resource mappings: 
+	
+[Loading] Scanning directory /home/raphael/Documentos/Estudos/Scala/expert-language
+[Loading] Found non-root projects 
+[Loading] Done in /home/raphael/Documentos/Estudos/Scala/expert-language, returning: ()
+deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.BackgroundRunPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.BackgroundRunPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.InteractionServicePlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.SendEventServicePlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.SerializersPlugin)))))
+  :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.SerializersPlugin,sbt.plugins.SendEventServicePlugin,sbt.plugins.InteractionServicePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.BackgroundRunPlugin,sbt.plugins.JUnitXmlReportPlugin)
+sorting: ns: List(sbt.plugins.CorePlugin, sbt.plugins.SerializersPlugin, sbt.plugins.SendEventServicePlugin, sbt.plugins.InteractionServicePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.BackgroundRunPlugin, sbt.plugins.JUnitXmlReportPlugin)
+  :: sorting:: found: List(sbt.plugins.CorePlugin) not found List(sbt.plugins.SerializersPlugin, sbt.plugins.SendEventServicePlugin, sbt.plugins.InteractionServicePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.BackgroundRunPlugin, sbt.plugins.JUnitXmlReportPlugin)
+  :: sorting:: found: List(sbt.plugins.CorePlugin, sbt.plugins.SerializersPlugin, sbt.plugins.SendEventServicePlugin, sbt.plugins.InteractionServicePlugin, sbt.plugins.IvyPlugin) not found List(sbt.plugins.JvmPlugin, sbt.plugins.BackgroundRunPlugin, sbt.plugins.JUnitXmlReportPlugin)
+  :: sorting:: found: List(sbt.plugins.CorePlugin, sbt.plugins.SerializersPlugin, sbt.plugins.SendEventServicePlugin, sbt.plugins.InteractionServicePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin) not found List(sbt.plugins.BackgroundRunPlugin, sbt.plugins.JUnitXmlReportPlugin)
+  :: sorting:: found: List(sbt.plugins.CorePlugin, sbt.plugins.SerializersPlugin, sbt.plugins.SendEventServicePlugin, sbt.plugins.InteractionServicePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.BackgroundRunPlugin, sbt.plugins.JUnitXmlReportPlugin) not found List()
+  :: sorted deduced result: List(sbt.plugins.CorePlugin, sbt.plugins.SerializersPlugin, sbt.plugins.SendEventServicePlugin, sbt.plugins.InteractionServicePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.BackgroundRunPlugin, sbt.plugins.JUnitXmlReportPlugin)
+[Loading] Done in /home/raphael/Documentos/Estudos/Scala/expert-language, returning: (expert-language)
+Set current project to minimal-scala (in build file:/home/raphael/Documentos/Estudos/Scala/expert-language/)
+Reapplying settings...
+Set current project to minimal-scala (in build file:/home/raphael/Documentos/Estudos/Scala/expert-language/)
+> iflast shell
+> server-send-ready-for-request
+> server-handle-next-server-request
+> {file:/home/raphael/Documentos/Estudos/Scala/expert-language/}expert-language/compile:mainClass
+Evaluating tasks: compile:mainClass
+Running task... Cancel: sbt.server.ServerTaskCancellation@51fa4197, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set(/home/raphael/Documentos/Estudos/Scala/expert-language/src/main/scala/com/example/Hello.scala)
+Removed products: Set(/home/raphael/Documentos/Estudos/Scala/expert-language/target/scala-2.11/classes/com/example/Hello$.class, /home/raphael/Documentos/Estudos/Scala/expert-language/target/scala-2.11/classes/com/example/Hello.class)
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(/home/raphael/Documentos/Estudos/Scala/expert-language/src/main/scala/com/example/Hello.scala)
+
+Sources indirectly invalidated by:
+	product: Set(/home/raphael/Documentos/Estudos/Scala/expert-language/src/main/scala/com/example/Hello.scala)
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(/home/raphael/Documentos/Estudos/Scala/expert-language/src/main/scala/com/example/Hello.scala)
+
+Recompiling all 1 sources: invalidated sources (1) exceeded 50.0% of all sources
+Read from stdout: Compiling 1 Scala source to /home/raphael/Documentos/Estudos/Scala/expert-language/target/scala-2.11/classes...
+Compiling 1 Scala source to /home/raphael/Documentos/Estudos/Scala/expert-language/target/scala-2.11/classes...
+Getting compiler-interface from component compiler for Scala 2.11.7
+Other repositories:
+Default repositories:
+Getting compiler-interface from component compiler for Scala 2.11.7
+Other repositories:
+Default repositories:
+Running cached compiler 505b4949, interfacing (CompilerInterface) with Scala compiler version 2.11.7
+Calling Scala compiler with arguments  (CompilerInterface):
+	-bootclasspath
+	/opt/jdk1.8.0_60/jre/lib/resources.jar:/opt/jdk1.8.0_60/jre/lib/rt.jar:/opt/jdk1.8.0_60/jre/lib/sunrsasign.jar:/opt/jdk1.8.0_60/jre/lib/jsse.jar:/opt/jdk1.8.0_60/jre/lib/jce.jar:/opt/jdk1.8.0_60/jre/lib/charsets.jar:/opt/jdk1.8.0_60/jre/lib/jfr.jar:/opt/jdk1.8.0_60/jre/classes:/home/raphael/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.7.jar
+	-classpath
+	/home/raphael/Documentos/Estudos/Scala/expert-language/target/scala-2.11/classes:/home/raphael/.ivy2/cache/net.sf.brunneng.fusie/fusie/jars/fusie-0.8.1.jar:/home/raphael/.ivy2/cache/org.apache.commons/commons-math/jars/commons-math-2.2.jar
+Read from stdout: missing or invalid dependency detected while loading class file 'PDLParser.class'.
+Read from stdout: Could not access term parsing in package scala.util,
+Read from stdout: because it (or its dependencies) are missing. Check your build definition for
+Read from stdout: missing or conflicting dependencies. (Re-run with `-Ylog-classpath` to see the problematic classpath.)
+Read from stdout: A full rebuild may help if 'PDLParser.class' was compiled against an incompatible version of scala.util.
+Read from stdout: (NOTE: It looks like the scala-parser-combinators module is missing; try adding a dependency on "org.scala-lang.modules" : "scala-parser-combinators".
+Read from stdout: See http://docs.scala-lang.org/overviews/core/scala-2.11.html for more information.)
+missing or invalid dependency detected while loading class file 'PDLParser.class'.
+Could not access term parsing in package scala.util,
+because it (or its dependencies) are missing. Check your build definition for
+missing or conflicting dependencies. (Re-run with `-Ylog-classpath` to see the problematic classpath.)
+A full rebuild may help if 'PDLParser.class' was compiled against an incompatible version of scala.util.
+(NOTE: It looks like the scala-parser-combinators module is missing; try adding a dependency on "org.scala-lang.modules" : "scala-parser-combinators".
+       See http://docs.scala-lang.org/overviews/core/scala-2.11.html for more information.)
+Read from stdout: missing or invalid dependency detected while loading class file 'PDLParser.class'.
+Read from stdout: Could not access type JavaTokenParsers in value scala.util.combinator,
+Read from stdout: because it (or its dependencies) are missing. Check your build definition for
+Read from stdout: missing or conflicting dependencies. (Re-run with `-Ylog-classpath` to see the problematic classpath.)
+Read from stdout: A full rebuild may help if 'PDLParser.class' was compiled against an incompatible version of scala.util.combinator.
+missing or invalid dependency detected while loading class file 'PDLParser.class'.
+Could not access type JavaTokenParsers in value scala.util.combinator,
+because it (or its dependencies) are missing. Check your build definition for
+missing or conflicting dependencies. (Re-run with `-Ylog-classpath` to see the problematic classpath.)
+A full rebuild may help if 'PDLParser.class' was compiled against an incompatible version of scala.util.combinator.
+Read from stdout: two errors found
+two errors found
+Compilation failed (CompilerInterface)
+Read from stdout: (compile:compileIncremental) Compilation failed
+(compile:compileIncremental) Compilation failed
+Total time: 4 s, completed 08/10/2015 00:35:22
+> server-post-command-error-handler
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/home/raphael/Documentos/Estudos/Scala/expert-language/}expert-language/compile:discoveredMainClasses
+Evaluating tasks: compile:discoveredMainClasses
+Running task... Cancel: sbt.server.ServerTaskCancellation@5cf0194, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set(/home/raphael/Documentos/Estudos/Scala/expert-language/src/main/scala/com/example/Hello.scala)
+Removed products: Set(/home/raphael/Documentos/Estudos/Scala/expert-language/target/scala-2.11/classes/com/example/Hello$.class, /home/raphael/Documentos/Estudos/Scala/expert-language/target/scala-2.11/classes/com/example/Hello.class)
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(/home/raphael/Documentos/Estudos/Scala/expert-language/src/main/scala/com/example/Hello.scala)
+
+Sources indirectly invalidated by:
+	product: Set(/home/raphael/Documentos/Estudos/Scala/expert-language/src/main/scala/com/example/Hello.scala)
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(/home/raphael/Documentos/Estudos/Scala/expert-language/src/main/scala/com/example/Hello.scala)
+
+Recompiling all 1 sources: invalidated sources (1) exceeded 50.0% of all sources
+Read from stdout: Compiling 1 Scala source to /home/raphael/Documentos/Estudos/Scala/expert-language/target/scala-2.11/classes...
+Compiling 1 Scala source to /home/raphael/Documentos/Estudos/Scala/expert-language/target/scala-2.11/classes...
+Getting compiler-interface from component compiler for Scala 2.11.7
+Other repositories:
+Default repositories:
+Getting compiler-interface from component compiler for Scala 2.11.7
+Other repositories:
+Default repositories:
+Running cached compiler 5a1801ce, interfacing (CompilerInterface) with Scala compiler version 2.11.7
+Calling Scala compiler with arguments  (CompilerInterface):
+	-bootclasspath
+	/opt/jdk1.8.0_60/jre/lib/resources.jar:/opt/jdk1.8.0_60/jre/lib/rt.jar:/opt/jdk1.8.0_60/jre/lib/sunrsasign.jar:/opt/jdk1.8.0_60/jre/lib/jsse.jar:/opt/jdk1.8.0_60/jre/lib/jce.jar:/opt/jdk1.8.0_60/jre/lib/charsets.jar:/opt/jdk1.8.0_60/jre/lib/jfr.jar:/opt/jdk1.8.0_60/jre/classes:/home/raphael/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.7.jar
+	-classpath
+	/home/raphael/Documentos/Estudos/Scala/expert-language/target/scala-2.11/classes:/home/raphael/.ivy2/cache/net.sf.brunneng.fusie/fusie/jars/fusie-0.8.1.jar:/home/raphael/.ivy2/cache/org.apache.commons/commons-math/jars/commons-math-2.2.jar
+Read from stdout: missing or invalid dependency detected while loading class file 'PDLParser.class'.
+Read from stdout: Could not access term parsing in package scala.util,
+Read from stdout: because it (or its dependencies) are missing. Check your build definition for
+Read from stdout: missing or conflicting dependencies. (Re-run with `-Ylog-classpath` to see the problematic classpath.)
+Read from stdout: A full rebuild may help if 'PDLParser.class' was compiled against an incompatible version of scala.util.
+Read from stdout: (NOTE: It looks like the scala-parser-combinators module is missing; try adding a dependency on "org.scala-lang.modules" : "scala-parser-combinators".
+Read from stdout: See http://docs.scala-lang.org/overviews/core/scala-2.11.html for more information.)
+missing or invalid dependency detected while loading class file 'PDLParser.class'.
+Could not access term parsing in package scala.util,
+because it (or its dependencies) are missing. Check your build definition for
+missing or conflicting dependencies. (Re-run with `-Ylog-classpath` to see the problematic classpath.)
+A full rebuild may help if 'PDLParser.class' was compiled against an incompatible version of scala.util.
+(NOTE: It looks like the scala-parser-combinators module is missing; try adding a dependency on "org.scala-lang.modules" : "scala-parser-combinators".
+       See http://docs.scala-lang.org/overviews/core/scala-2.11.html for more information.)
+Read from stdout: missing or invalid dependency detected while loading class file 'PDLParser.class'.
+Read from stdout: Could not access type JavaTokenParsers in value scala.util.combinator,
+Read from stdout: because it (or its dependencies) are missing. Check your build definition for
+Read from stdout: missing or conflicting dependencies. (Re-run with `-Ylog-classpath` to see the problematic classpath.)
+Read from stdout: A full rebuild may help if 'PDLParser.class' was compiled against an incompatible version of scala.util.combinator.
+missing or invalid dependency detected while loading class file 'PDLParser.class'.
+Could not access type JavaTokenParsers in value scala.util.combinator,
+because it (or its dependencies) are missing. Check your build definition for
+missing or conflicting dependencies. (Re-run with `-Ylog-classpath` to see the problematic classpath.)
+A full rebuild may help if 'PDLParser.class' was compiled against an incompatible version of scala.util.combinator.
+Read from stdout: two errors found
+two errors found
+Compilation failed (CompilerInterface)
+Read from stdout: (compile:compileIncremental) Compilation failed
+(compile:compileIncremental) Compilation failed
+Total time: 2 s, completed 08/10/2015 00:35:24
+> server-post-command-error-handler
+> server-post-command-cleanup
+> server-handle-next-server-request
+Done executing sbt server engine, result Right(Exit(0))
+Closing listening server socket
+Waiting for socket thread
+Waiting for request processor thread
+Waiting for command engine result
+Returning control to sbt launcher with result Exit(0)
+Closing the 5868@raphael-notebook logs at Thu Oct 08 00:40:44 AMT 2015, goodbye.
